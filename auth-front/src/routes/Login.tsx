@@ -19,7 +19,7 @@ export default function Login (){
     <DefaultLayout>
     <form className="form">
         
-        <h1>SignUp</h1>
+        <h1>LogIn</h1>
 
         <label htmlFor="">Email</label>
         <input type="text" value={email} onChange={(e)=>setEmail(e.target.value)}/>
